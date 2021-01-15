@@ -1,10 +1,8 @@
 package linkedlist;
 
-//定义SingleLinkedList 管理我们的英雄
 public class SingleLinkedList {
     //先初始化一个头节点, 头节点不要动, 不存放具体的数据
     private HeroNode head = new HeroNode(0, "", "");
-
 
     //返回头节点
     public HeroNode getHead() {
